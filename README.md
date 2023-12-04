@@ -46,7 +46,7 @@ pages: Contains Next.js pages for routing.
 
 styles: Contains global CSS styles.
 
-##API Details:
+## API Details:
 
 Movie DB Popular Movies API: https://api.themoviedb.org/3/movie/popular?api_key={apiKey}
 
