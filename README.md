@@ -43,8 +43,11 @@ Project Structure
 components: Contains React components used in the project.
 pages: Contains Next.js pages for routing.
 styles: Contains global CSS styles.
-API Details
+
+API Details:
+
 Movie DB Popular Movies API: https://api.themoviedb.org/3/movie/popular?api_key={apiKey}
+
 Movie DB Genres API: https://api.themoviedb.org/3/genre/movie/list?api_key={apiKey}
 
 
