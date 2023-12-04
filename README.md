@@ -38,13 +38,15 @@ Open your browser and visit http://localhost:3000 to view the Movies Browser web
 
 
 
-## Notes
-Project Structure
+## Project Structure
+
 components: Contains React components used in the project.
+
 pages: Contains Next.js pages for routing.
+
 styles: Contains global CSS styles.
 
-API Details:
+##API Details:
 
 Movie DB Popular Movies API: https://api.themoviedb.org/3/movie/popular?api_key={apiKey}
 
