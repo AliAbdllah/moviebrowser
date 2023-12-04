@@ -1,49 +1,54 @@
-# TypeScript Next.js example
+# Movie Browser
+A simple Movies Browser website using Next.js, Tailwind CSS, and TypeScript.
 
-This is a really simple project that shows the usage of Next.js with TypeScript.
+## Introduction
+This project is a Movies Browser website that fetches data from The Movie DB Popular Movies API and displays a list of the most popular movies. Users can click on a movie card to view detailed information about the selected movie. The project is built with Next.js, Tailwind CSS , and TypeScript.
 
-## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-typescript)
+## Features
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-typescript&project-name=with-typescript&repository-name=with-typescript)
+Display a list of popular movies with their poster images and titles.
+View detailed information about a selected movie.
+Responsive design for optimal viewing on various devices.
 
-## How to use it?
+## Setup
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
+Clone the repository:
 ```bash
-npx create-next-app --example with-typescript with-typescript-app
+git clone https://github.com/your-username/my-movies-browser.git
 ```
 
+Navigate to the project directory:
 ```bash
-yarn create next-app --example with-typescript with-typescript-app
+cd my-movies-browser
 ```
 
+Install dependencies:
 ```bash
-pnpm create next-app --example with-typescript with-typescript-app
+npm install
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Run the development server:
+```bash
+npm run dev
+```
+
+Open your browser and visit http://localhost:3000 to view the Movies Browser website.
+
+
+
 
 ## Notes
+Project Structure
+components: Contains React components used in the project.
+pages: Contains Next.js pages for routing.
+styles: Contains global CSS styles.
+API Details
+Movie DB Popular Movies API: https://api.themoviedb.org/3/movie/popular?api_key={apiKey}
+Movie DB Genres API: https://api.themoviedb.org/3/genre/movie/list?api_key={apiKey}
 
-This example shows how to integrate the TypeScript type system into Next.js. Since TypeScript is supported out of the box with Next.js, all we have to do is to install TypeScript.
 
-```
-npm install --save-dev typescript
-```
 
-To enable TypeScript's features, we install the type declarations for React and Node.
 
-```
-npm install --save-dev @types/react @types/react-dom @types/node
-```
 
-When we run `next dev` the next time, Next.js will start looking for any `.ts` or `.tsx` files in our project and builds it. It even automatically creates a `tsconfig.json` file for our project with the recommended settings.
 
-Next.js has built-in TypeScript declarations, so we'll get autocompletion for Next.js' modules straight away.
-
-A `type-check` script is also added to `package.json`, which runs TypeScript's `tsc` CLI in `noEmit` mode to run type-checking separately. You can then include this, for example, in your `test` scripts.
-
-I used MovieList component in case we are using cms so we can render the movies indexpage using getStaticProps
