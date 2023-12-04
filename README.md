@@ -15,12 +15,12 @@ Responsive design for optimal viewing on various devices.
 
 Clone the repository:
 ```bash
-git clone https://github.com/your-username/my-movies-browser.git
+git clone https://github.com/AliAbdllah/moviebrowser.git
 ```
 
 Navigate to the project directory:
 ```bash
-cd my-movies-browser
+cd moviebrowser
 ```
 
 Install dependencies:
